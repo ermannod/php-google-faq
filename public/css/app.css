@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  max-width: 1180px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+main .container {
+  margin: 150px auto auto auto;
+}
+
+.txsize {
+  font-weight: normal;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
