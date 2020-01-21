@@ -40,10 +40,24 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="public/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-
+      <div class="nav">
+        <div class="nav-left">
+          <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="google_logo"></a>
+          <h2 class="inline">Privacy & Terms</h2>
+        </div>
+        <ul>
+          <li> <a href="#">Overview</a></li>
+          <li> <a href="#">Privacy Policy</a></li>
+          <li> <a href="#">Terms of Service </a></li>
+          <li> <a href="#">Technologies</a></li>
+          <li class="active"> <a href="#">FAQ</a></li>
+          <li class="account"> <a href="#">Google Account</a></li>
+        </ul>
+      </div>
     </header>
     <main class="flex">
       <div class="container">

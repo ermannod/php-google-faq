@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 .container {
   max-width: 1180px;
 }
@@ -11,6 +15,51 @@
 .flex {
   display: -webkit-box;
   display: flex;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: super;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.69);
+}
+
+header .nav {
+  padding: 28px 28px 0px 28px;
+}
+
+header .nav ul {
+  display: -webkit-box;
+  display: flex;
+  list-style: none;
+}
+
+header .nav ul li {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  margin-right: 18px;
+  padding-bottom: 10px;
+}
+
+header .nav ul li:last-child {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  text-align: right;
+  margin: 0;
+}
+
+header .nav ul .active {
+  border-bottom: 2px solid blue;
 }
 
 main .container {

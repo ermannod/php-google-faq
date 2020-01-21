@@ -4,10 +4,23 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .container{
   max-width: 1180px;
 }
 
 .flex{
   display: flex;
+}
+
+.inline{
+  display: inline-block;
+  vertical-align: super;
+}
+
+a {
+  text-decoration: none;
 }

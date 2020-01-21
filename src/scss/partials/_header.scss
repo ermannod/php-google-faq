@@ -1,0 +1,31 @@
+header{
+  position: fixed;
+  width: 100vw;
+  background-color: white;
+  border-bottom:  1px solid rgba(0, 0, 0, 0.69);
+  .nav{
+    padding: 28px 28px 0px 28px;
+      ul{
+        display: flex;
+        list-style: none;
+
+          li {
+            flex-direction: row;
+            margin-right: 18px;
+            padding-bottom: 10px;
+
+            &:last-child{
+              flex-grow: 1;
+              text-align: right;
+              margin: 0;
+              }
+
+          }
+
+          .active{
+            border-bottom: 2px solid blue;
+          }
+        }
+      }
+
+    }
